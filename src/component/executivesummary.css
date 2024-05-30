@@ -1,0 +1,29 @@
+.executivesummary{
+
+    .card-title {
+        color: #2E383F;
+        font-family: Metropolis;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 11px;
+      }
+      
+      .card-content2 , .card-content3{
+        color: #333;
+        font-family: Metropolis;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 11px; 
+      }
+      
+      .card-content4{
+        color: #60B515;
+        font-family: Metropolis;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 11px; 
+      }
+}

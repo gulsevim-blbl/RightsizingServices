@@ -1,0 +1,7 @@
+.brdcumd{
+     display: flex;
+     flex: 1;
+}
+.custom-breadcrumb a {
+    color: #0079B8;
+  }

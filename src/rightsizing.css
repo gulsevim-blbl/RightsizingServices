@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Metropolis';
+    src: url("./fonts/metropolis/Metropolis-Regular.otf") format('opentype');
+}
+
+.azuresqldefault{
+    margin: 10px;
+    padding: 10px;
+}    
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-family: 'Metropolis', sans-serif;
+    margin-top: -10px;
+    
+  }
+
+  .lastUpdated{
+    font-family: 'Metropolis', sans-serif;
+    color: #777777;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-top: -10px;
+  }

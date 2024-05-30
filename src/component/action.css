@@ -1,0 +1,16 @@
+.ActionsButton{
+    display: flex;
+    flex: 1;
+}
+.custom-button {
+    border: 1px solid #0079B8;
+    color: #0079B8;
+    background: white;
+  }
+  
+  .custom-button:hover {
+    color: white;
+    background: #0079B8;
+    border: 1px solid #0079B8;
+  }
+  

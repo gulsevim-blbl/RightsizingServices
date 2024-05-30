@@ -1,0 +1,23 @@
+.tabs {
+   padding-top: 5px;
+}
+
+.vm {
+    width: 98vw;
+    height: 74vh;
+    text-align: left;
+    /* background: rgba(153, 0, 255, 0.02); */
+}
+
+.kubernetes {
+    width: 98vw;
+    height: 74vh;
+    text-align: left;
+    /* background: rgba(0, 0, 255, 0.02); */
+}
+
+.sqlDb {
+    width: 98vw;
+    height: 74vh;
+    text-align: left;
+}
