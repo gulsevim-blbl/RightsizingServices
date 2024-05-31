@@ -2,6 +2,8 @@ import React from 'react';
 import "./executivesummary.css";
 import { Card, Col, Row } from 'antd';
 import {  InfoCircleOutlined  } from '@ant-design/icons';
+import DonutChart from './DonutChart';
+
 const ExecutiveSummary = () => {
   return (
     <div className='executivesummary'>
@@ -14,7 +16,7 @@ const ExecutiveSummary = () => {
             } bordered={false}
             className="card-content1"
             >
-            Card content 1
+            <DonutChart/>
           </Card>
         </Col>
         <Col span={6}>
