@@ -1,0 +1,63 @@
+[
+    {
+      "key": "0",
+      "dbname": "jenkins-node-deploy",
+      "dbid": "DB-0027659c016cd356e",
+      "type": "GP2",
+      "subscription": "Subscription name",
+      "dtuAvg": "0%",
+      "storageAvg": "0%",
+      "status": "Good fit",
+      "currentCost": "$930.00",
+      "projectedCost": "$700.00",
+      "projectedSavings": "$230.00",
+      "recommendation": "Terminate Instance"
+    },
+    {
+      "key": "1",
+      "dbname": "jenkins-node-deploy",
+      "dbid": "DB-0027659c016cd356e",
+      "type": "GP2",
+      "subscription": "Subscription name",
+      "dtuAvg": "54%",
+      "storageAvg": "54%",
+      "status": "Good fit",
+      "currentCost": "$930.00",
+      "projectedCost": "$700.00",
+      "projectedSavings": "$230.00",
+      "recommendation": "Downsize to r5.2xlarg"
+    },
+    {
+      "key": "2",
+      "dbname": "jenkins-node-deploy",
+      "dbid": "DB-0027659c016cd356e",
+      "type": "GP2",
+      "subscription": "Subscription name",
+      "dtuAvg": "19%",
+      "storageAvg": "19%",
+      "status": "Under target",
+      "currentCost": "$930.00",
+      "projectedCost": "$700.00",
+      "projectedSavings": "$230.00",
+      "recommendation": "Downsize to r5.2xlarg"
+    },
+    {
+      "key": "3",
+      "dbname": "jenkins-node-deploy",
+      "dbid": "DB-0027659c016cd356e",
+      "type": "GP2",
+      "subscription": "Subscription name",
+      "dtuAvg": "50%",
+      "storageAvg": "50%",
+      "status": "Good fit",
+      "currentCost": "$930.00",
+      "projectedCost": "$700.00",
+      "projectedSavings": "$230.00",
+      "recommendation": "Downsize to r5.2xlarg"
+    }
+    
+
+
+
+  ]
+  

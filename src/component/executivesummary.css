@@ -1,29 +1,64 @@
-.executivesummary{
+.executivesummary {
+  .ant-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -8px;
+    margin-right: -8px;
+  }
 
-    .card-title {
-        color: #2E383F;
-        font-family: Metropolis;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 11px;
-      }
-      .card-content1{
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      }
-      .card-content2 , .card-content3, .card-content4{
-        color: #333;
-        font-family: Metropolis;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 11px; 
-        height: 204px; /*21-22.satır responsluğu bozuyor */
-        width: 340px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      }
-      
-      .card-content4{
-        color: #60B515;
-      }
+  .ant-col {
+    padding: 0 8px;
+    margin-bottom: 16px;
+  }
+
+  .card-title {
+    color: #2E383F;
+    font-family: Metropolis;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 11px;
+  }
+
+  .ant-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 2px;
+    border: 1px solid #D7D7D7;
+    height: 180px;
+  }
+  
+  .ant-card-body {
+    flex: 1;
+  }
+
+  .card-content1 {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-content2,
+  .card-content3,
+  .card-content4 {
+    color: #333;
+    font-family: Metropolis;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 11px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-content4 {
+    color: #60B515;
+  }
+
+  .card-content2 > .ant-card-body,
+  .card-content3 > .ant-card-body,
+  .card-content4 > .ant-card-body {
+    display: flex; 
+    align-items: center; 
+}
+
 }

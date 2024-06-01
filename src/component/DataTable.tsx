@@ -1,6 +1,7 @@
 import React from 'react'
 import "./datatable.css"
 import BulkActions from './BulkActions'
+import Table from './Table'
 const DataTable = () => {
   return (
     <div className='datatable'>
@@ -8,7 +9,7 @@ const DataTable = () => {
         <h1>SQL DB Recommendations</h1>
       </div>
       <BulkActions/>
-      
+      <Table/>
     </div>
   )
 }

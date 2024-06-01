@@ -1,0 +1,12 @@
+.table{
+    margin-top: -40px;
+
+}
+.ant-table-row {
+  height: 30px; /* Satır yüksekliğini ayarlar */
+}
+
+.ant-table-cell {
+  padding: 8px; /* Hücre içi boşluğu küçültür */
+  font-size: 10px; /* Yazı boyutunu küçültür */
+}
