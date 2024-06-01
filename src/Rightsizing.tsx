@@ -4,6 +4,7 @@ import Brdcumb from './component/Brdcumb';
 import ActionsButton from './component/Action';
 import { InfoCircleOutlined } from '@ant-design/icons';
 import Tabs from './component/Tabs';
+import DataTable from './component/DataTable';
 const Rightsizing = () => {
   return (
     <div className='azuresqldefault'>
@@ -19,6 +20,9 @@ const Rightsizing = () => {
         </div>
         <div className="tabs">
           <Tabs/>
+        </div>
+        <div className="datagrid">
+           <DataTable/>
         </div>
     </div>
   );

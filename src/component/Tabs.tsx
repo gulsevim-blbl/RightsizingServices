@@ -14,8 +14,7 @@ const Tabs = () => {
   const [activePanel, setActivePanel] = useState<string>('VM');
 
   const handlePanelChange = (href: string) => {
-    const key = href.substring(1); // href değerinden "#" işaretini kaldırma
-    setActivePanel(key);
+    const key = href.substring(1); 
   };
 
   return (
