@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'ClarityCity';
+    src: url("../fonts/metropolis/ClarityCity/ClarityCity-Regular.otf") format('opentype');
+}
+.datatable{
+.title{
+    font-family: 'ClarityCity', sans-serif;
+    font-size: 11px;
+    margin-top: 10px;
+    margin-bottom: -20px;
+}
+
+}

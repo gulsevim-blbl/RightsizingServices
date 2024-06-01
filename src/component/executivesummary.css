@@ -18,7 +18,7 @@
         font-style: normal;
         font-weight: 600;
         line-height: 11px; 
-        height: 204px;
+        height: 204px; /*21-22.satır responsluğu bozuyor */
         width: 340px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       }

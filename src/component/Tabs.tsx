@@ -1,20 +1,16 @@
 import React, { useState } from 'react';
 import { Anchor } from 'antd';
-import "./tabs.css"
+import "./tabs.css";
 import FilterBar from './FilterBar';
 import ExecutiveSummary from './ExecutiveSummary';
+import DataTable from './DataTable';
 
 const Tabs = () => {
-  interface Tab {
-    key: string;
-    href: string;
-    title: string;
-  }
-
   const [activePanel, setActivePanel] = useState<string>('VM');
 
   const handlePanelChange = (href: string) => {
     const key = href.substring(1); 
+    setActivePanel(key); 
   };
 
   return (
@@ -27,23 +23,24 @@ const Tabs = () => {
       <div>
         {activePanel === 'VM' && (
           <div className="vm" id="VM">
-            {/* VM içeriği */}
-            <FilterBar/>
-            <ExecutiveSummary/>
+            {/* VM content */}
+            <FilterBar />
+            <ExecutiveSummary />
+            <DataTable />
           </div>
         )}
         {activePanel === 'Kubernetes' && (
           <div className="kubernetes" id="Kubernetes">
-            {/* Kubernetes içeriği */}
-            <FilterBar/>
-            <ExecutiveSummary/>
+            {/* Kubernetes content */}
+            <FilterBar />
+            <ExecutiveSummary />
           </div>
         )}
         {activePanel === 'SQL DB' && (
           <div className="sqlDb" id="SQL DB">
-            {/* SQL DB içeriği */}
-            <FilterBar/>
-            <ExecutiveSummary/>
+            {/* SQL DB content */}
+            <FilterBar />
+            <ExecutiveSummary />
           </div>
         )}
       </div>

@@ -72,7 +72,7 @@ const FilterBar = () => {
             </Dropdown>
       </div>  
       <div className="daterange">
-            <p>Date Range <InfoCircleOutlined/> </p>  
+            <p>Date Range</p>  
             <Dropdown menu={{ items }}>
                 <a className='dropdown-link' onClick={(e) => e.preventDefault()}>
                 <Space>

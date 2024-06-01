@@ -3,6 +3,7 @@
     flex: 1;
 }
 .custom-button {
+    border-radius: 3px;
     border: 1px solid #0079B8;
     color: #0079B8;
     background: white;
