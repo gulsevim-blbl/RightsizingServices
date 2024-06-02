@@ -1,11 +1,10 @@
 import React from 'react'
 import "./filterbar.css"
-import { Button } from 'antd';
+import { Button, Menu } from 'antd';
 import { FilterOutlined } from '@ant-design/icons';
 import { DownOutlined, SmileOutlined, InfoCircleOutlined  } from '@ant-design/icons';
-import type { MenuProps } from 'antd';
+import type { MenuProps,  } from 'antd';
 import { Dropdown, Space } from 'antd';
-
 
 
 const items: MenuProps['items'] = [
@@ -34,13 +33,22 @@ const items: MenuProps['items'] = [
     },
   ];
   
-
+  const menu = (
+    <Menu>
+      <Menu.Item key="1">Upsize</Menu.Item>
+      <Menu.Item key="2">Downsize</Menu.Item>
+      <Menu.Item key="3">Terminate</Menu.Item>
+    </Menu>
+  );
+  
 const FilterBar = () => {
   return (
     <div className='filterbar'>
-       <Button className="filter-button">
-             <FilterOutlined />FILTERS 
-      </Button>
+      <Dropdown overlay={menu} trigger={['click']}>
+        <Button className="filter-button">
+               <FilterOutlined />FILTERS 
+        </Button>
+      </Dropdown>
       <div className="costtype">
             <p>Cost Type <InfoCircleOutlined/> </p>  
             <Dropdown menu={{ items }}>
