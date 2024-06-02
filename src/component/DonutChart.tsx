@@ -1,24 +1,40 @@
 import React from 'react';
-import { PieChart } from '@mui/x-charts/PieChart';
-import './donutchart.css'; 
-
+import Chart from 'react-apexcharts';
+import { ApexOptions } from 'apexcharts';
+import "./donutchart.css"
 const DonutChart = () => {
+  const data = {
+    series: [10, 70, 60],
+    options: {
+      chart: {
+        type: 'donut' as const, 
+      },
+      labels: ['Upsize', 'Downsize', 'Terminate'],
+      colors: ['#EFA231', '#4E56B8', '#E12200'],
+      dataLabels: {
+        enabled: false, // Yüzde değerleri 
+      },
+      plotOptions: {
+        pie: {
+          donut: {
+            labels: {
+              show: true,
+              name: {
+                show: true,
+              },
+              value: {
+                show: true, // Değerlerin görünmesi
+              },
+            },
+          },
+        },
+      },
+    } as ApexOptions, // Tür dönüşümü eklenmiştir
+  };
+
   return (
-    <div className='donutchart'> 
-     <PieChart
-  series={[
-    {
-      data: [
-        { id: 0, value: 5, label: 'Upsize', color: '#EFA231' },
-        { id: 1, value: 30, label: 'Terminate', color: '#E12200' },
-        { id: 2, value: 20, label: 'Downsize', color: '#4E56B8' },
-      ],
-      innerRadius: 35
-    },
-  ]}
-  width={250}
-  height={100}
-/>
+    <div className='donutchart'>
+      <Chart options={data.options} series={data.series} type="donut"  />
     </div>
   );
 };

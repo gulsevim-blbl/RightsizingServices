@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Divider, Table as AntdTable } from 'antd';
 import type { TableColumnsType, TableProps } from 'antd';
-import { CheckCircleOutlined, ArrowDownOutlined, MoreOutlined} from '@ant-design/icons';
+import { CheckCircleOutlined, ArrowDownOutlined} from '@ant-design/icons';
 import { MdDownloading } from "react-icons/md";
 import "./table.css"; 
 
@@ -193,7 +193,7 @@ const Table = () => {
         columns={columns}
         dataSource={data}
         pagination={false} 
-        scroll={{ y: 180 }} 
+        scroll={{ y: 190 }} 
         onChange={onChange}
       />
     </div>
