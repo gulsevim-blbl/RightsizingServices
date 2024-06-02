@@ -1,17 +1,36 @@
-.ActionsButton{
-    display: flex;
-    flex: 1;
+.ActionsButton {
+  display: flex;
+  flex: 1;
 }
+
 .custom-button {
-    border-radius: 3px;
-    border: 1px solid #0079B8;
-    color: #0079B8;
-    background: white;
+  border-radius: 3px;
+  border: 1px solid #0079B8;
+  color: #0079B8;
+  background: white;
+  transition: all 0.3s; /* Animasyon süresi */
+}
+
+.custom-button:hover {
+  color: white;
+  background: #0079B8;
+  border: 1px solid #0079B8;
+}
+
+
+@media (max-width: 768px) {
+  .custom-button {
+    font-size: 8px; 
+    width: 80px;
+    height: 20px;
+    text-align: center; 
+    position: absolute; /* Butonun pozisyonunu mutlak olarak belirle */
+    margin-right: 20px;
+    margin-top: 5px;
+    right: 0; /* Sağ kenara sıfır piksel mesafede olacak şekilde konumlandırma */
+    
   }
-  
-  .custom-button:hover {
-    color: white;
-    background: #0079B8;
-    border: 1px solid #0079B8;
+  .anticon.anticon-down {
+    font-size: 8px; 
   }
-  
+}

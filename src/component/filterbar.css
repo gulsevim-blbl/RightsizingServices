@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     padding: 5px; 
+    flex-wrap: wrap; /* Sütunları düşey olarak sırala */
 }
 
 .filter-button {
@@ -49,8 +50,16 @@
 }
 
 
+/*!media quary algılamyor*/
+@media screen and (min-width: 768px) {
+    .filterbar {
+        flex-wrap: nowrap; 
+    }
 
-
+    .filter-button {
+        margin: 10px;
+    }
+}
 
 
 

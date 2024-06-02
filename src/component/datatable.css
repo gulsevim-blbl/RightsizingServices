@@ -2,11 +2,16 @@
     font-family: 'ClarityCity';
     src: url("../fonts/metropolis/ClarityCity/ClarityCity-Regular.otf") format('opentype');
 }
-.datatable{
-.title{
+
+.datatable .title {
     font-family: 'ClarityCity', sans-serif;
     font-size: 11px;
     padding-top: 10px;
 }
 
+@media only screen and (max-width: 600px) {
+    .datatable .title {
+        font-size: 10px; 
+        padding-bottom: 10px;
+    }
 }

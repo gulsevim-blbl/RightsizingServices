@@ -1,8 +1,8 @@
 .table {
   margin-top: -30px;
   width: 100%;
+  overflow-x: auto; /* Yatay kaydırmayı sağlar */
 }
-
 
 .ant-table-cell {
   padding: 4px;
@@ -16,5 +16,30 @@
 
 .recommendation {
   background-color: #abf25b33;
+}
+
+@media screen and (max-width: 768px) {
+  .table {
+    overflow-x: hidden; 
+  }
+
+  .ant-table {
+    overflow: auto;
+  }
+
+  .ant-table-content {
+    overflow: auto;
+  }
+
+  .ant-table-thead > tr > th,
+  .ant-table-tbody > tr > td {
+    white-space: nowrap;
+    width: auto !important; 
+  }
+  
+
+  .ant-table-cell {
+    font-size: 5px; 
+  }
 }
 
