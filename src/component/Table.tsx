@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Divider, Table as AntdTable } from 'antd';
 import type { TableColumnsType, TableProps } from 'antd';
-import { CheckCircleOutlined, ArrowDownOutlined } from '@ant-design/icons';
+import { CheckCircleOutlined, ArrowDownOutlined, MoreOutlined} from '@ant-design/icons';
 import { MdDownloading } from "react-icons/md";
 import "./table.css"; 
 
@@ -21,10 +21,15 @@ interface DataType {
 }
 
 const columns: TableColumnsType<DataType> = [
+  // {
+  //   title: '',
+  //   key:'actions',
+  //   className: 'column',
+  //   render: () => <MoreOutlined style={{ cursor: 'pointer' }} />,
+  // },
   {
     title: 'DB Name',
     dataIndex: 'dbname',
-
     render: (text: string) => <a>{text}</a>,
     filters: [
         {
@@ -34,6 +39,7 @@ const columns: TableColumnsType<DataType> = [
        
       ],
       onFilter: (value, record) => record.dbname.indexOf(value as string) === 0,
+      className:'dbname',
   },
   {
     title: 'DB ID',

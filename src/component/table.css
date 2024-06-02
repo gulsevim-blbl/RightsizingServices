@@ -1,26 +1,21 @@
 .table {
-    margin-top: -40px;
-  }
-  
-  .ant-table-cell {
-    height: 40px; /* Örnek bir yükseklik değeri */
-  }
-  
-  .ant-table-header th {
-    height: 40px; /* Örnek bir yükseklik değeri */
-  }
-  
-  .ant-table-cell {
-    padding: 4px;
-    font-size: 10px;
-    color: #565656; 
-  }
-  
-  .projectedSavings {
-    background-color: #abf25b33;
-  }
-  
-  .recommendation {
-    background-color: #abf25b33;
-  }
-  
+  margin-top: -40px;
+  width: 100%;
+}
+
+
+.ant-table-cell {
+  padding: 4px;
+  font-size: 10px;
+  color: #565656; 
+}
+
+.projectedSavings {
+  background-color: #abf25b33;
+}
+
+.recommendation {
+  background-color: #abf25b33;
+}
+
+

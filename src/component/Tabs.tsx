@@ -26,7 +26,7 @@ const Tabs = () => {
             {/* VM content */}
             <FilterBar />
             <ExecutiveSummary />
-            <DataTable />
+            <DataTable activePanel={activePanel} />
           </div>
         )}
         {activePanel === 'Kubernetes' && (
@@ -34,6 +34,7 @@ const Tabs = () => {
             {/* Kubernetes content */}
             <FilterBar />
             <ExecutiveSummary />
+            <DataTable activePanel={activePanel} />
           </div>
         )}
         {activePanel === 'SQL DB' && (
@@ -41,6 +42,7 @@ const Tabs = () => {
             {/* SQL DB content */}
             <FilterBar />
             <ExecutiveSummary />
+            <DataTable activePanel={activePanel} />
           </div>
         )}
       </div>
