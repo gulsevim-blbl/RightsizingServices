@@ -19,7 +19,7 @@ npm start
 ## Project Pictures
 
 # Project main image #
-![Ekran görüntüsü 2024-06-03 025402](https://github.com/gulsevim-blbl/RightsizingServices/assets/73358343/0be2acd9-c608-4936-a022-494ce83f32b4)
+![Ekran görüntüsü 2024-06-03 031739](https://github.com/gulsevim-blbl/RightsizingServices/assets/73358343/48d0e240-bbf1-436a-af27-4e15ce67a589)
 
 # VM #
 ![VM](https://github.com/gulsevim-blbl/RightsizingServices/assets/73358343/fc6d655e-c66c-4561-8ed9-e8832d30d096)
