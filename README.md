@@ -22,11 +22,11 @@ npm start
 ![Ekran görüntüsü 2024-06-03 025402](https://github.com/gulsevim-blbl/RightsizingServices/assets/73358343/0be2acd9-c608-4936-a022-494ce83f32b4)
 
 # VM #
-![VM](https://github.com/gulsevim-blbl/RightsizingServices/assets/73358343/4aa504d0-2f92-4c8b-a4dd-1a4370957dc6)
+![VM](https://github.com/gulsevim-blbl/RightsizingServices/assets/73358343/fc6d655e-c66c-4561-8ed9-e8832d30d096)
 # Kubernetes #
-![Kubernetes](https://github.com/gulsevim-blbl/RightsizingServices/assets/73358343/71f40fbb-0611-4675-bee5-1461cae3f0cc)
+![Kubernetes](https://github.com/gulsevim-blbl/RightsizingServices/assets/73358343/066135d1-7ff6-4821-b90e-0a182493855b)
 # SQL DB #
-![SQLDB](https://github.com/gulsevim-blbl/RightsizingServices/assets/73358343/d3eb00db-84f0-4bdc-afd0-7621caf000f1)
+![sqldb](https://github.com/gulsevim-blbl/RightsizingServices/assets/73358343/61ac8081-9700-4718-a45b-876c76f21e21)
 
 ## responsive design photos
 # Picture1 #
