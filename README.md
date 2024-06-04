@@ -1,21 +1,5 @@
 <h1 align="center">Rightsizing Services </h1>
 
-# Step 1: Clone the project #
-```
-git clone https://github.com/gulsevim-blbl/RightsizingServices.git
-```
-# Step 2: # 
-
-```
-npm install
-```
-
-# Step 3: #
-
-```
-npm start
-```
-
 ## Project Pictures
 
 # Project main image #
