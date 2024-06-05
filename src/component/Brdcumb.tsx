@@ -3,7 +3,7 @@ import "./brdcumb.css"
 import { Breadcrumb } from 'antd';
 import { Link } from 'react-router-dom'; 
 
-const Brdcumb = () => {
+const Brdcumb = ({ currentTab }: { currentTab: string }) => {
   return (
     <div className='brdcrumb'>
     <Breadcrumb separator=">">
@@ -13,7 +13,7 @@ const Brdcumb = () => {
         <Breadcrumb.Item className="custom-breadcrumb">
             <Link to="/rightsizing">Rightsizing</Link>
         </Breadcrumb.Item>
-        <Breadcrumb.Item>SQL DB</Breadcrumb.Item>
+        <Breadcrumb.Item>{currentTab}</Breadcrumb.Item>
         
     </Breadcrumb>
    

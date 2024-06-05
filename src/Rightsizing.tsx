@@ -1,14 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './rightsizing.css'; 
 import Brdcumb from './component/Brdcumb';
 import ActionsButton from './component/Action';
 import { InfoCircleOutlined } from '@ant-design/icons';
 import Tabs from './component/Tabs';
+
 const Rightsizing = () => {
+
+  const [currentTab, setCurrentTab] = useState<string>('VM');
+
+  const handleTabChange = (tab: string) => {
+    setCurrentTab(tab);
+  };
+
   return (
     <div className='azuresqldefault'>
         <div className="container">
-             <Brdcumb/>
+            <Brdcumb currentTab={currentTab} />
             <ActionsButton/>
         </div>
         <div className="title">
@@ -18,7 +26,7 @@ const Rightsizing = () => {
             </div>
         </div>
         <div className="tabs">
-          <Tabs/>
+            <Tabs onTabChange={handleTabChange} />
         </div>
     </div>
   );

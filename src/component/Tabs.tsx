@@ -5,12 +5,13 @@ import FilterBar from './FilterBar';
 import ExecutiveSummary from './ExecutiveSummary';
 import DataTable from './DataTable';
 
-const Tabs = () => {
+const Tabs = ({ onTabChange }: { onTabChange: (tab: string) => void }) => {
   const [activePanel, setActivePanel] = useState<string>('VM');
 
   const handlePanelChange = (href: string) => {
-    const key = href.substring(1); 
-    setActivePanel(key); 
+    const key = href.substring(1);
+    setActivePanel(key);
+    onTabChange(key);
   };
 
   return (
