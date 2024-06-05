@@ -3,14 +3,16 @@
 # Project Pictures #
 
 ## Project main image 
-![Ekran görüntüsü 2024-06-03 031739](https://github.com/gulsevim-blbl/RightsizingServices/assets/73358343/48d0e240-bbf1-436a-af27-4e15ce67a589)
+![ana](https://github.com/gulsevim-blbl/RightsizingServices/assets/73358343/14c8e65e-0c06-447d-b31c-c97f0e458ae1)
 
 ## VM
-![VM](https://github.com/gulsevim-blbl/RightsizingServices/assets/73358343/fc6d655e-c66c-4561-8ed9-e8832d30d096)
+![VM](https://github.com/gulsevim-blbl/RightsizingServices/assets/73358343/47c98163-6085-4ecb-9a72-af2cbabd66d1)
+
 ## Kubernetes 
-![Kubernetes](https://github.com/gulsevim-blbl/RightsizingServices/assets/73358343/066135d1-7ff6-4821-b90e-0a182493855b)
+![kubernetes](https://github.com/gulsevim-blbl/RightsizingServices/assets/73358343/01833791-962c-47ef-9a44-d15b6e9c8c6e)
+
 ## SQL DB
-![sqldb](https://github.com/gulsevim-blbl/RightsizingServices/assets/73358343/61ac8081-9700-4718-a45b-876c76f21e21)
+![SQL](https://github.com/gulsevim-blbl/RightsizingServices/assets/73358343/ade108f0-56cd-4a6d-b073-640cd0f89d4c)
 
 # responsive design photos #
 ## Picture1
